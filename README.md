@@ -1,6 +1,18 @@
-# Recipe Sharing Form - Laravel Project
-# AppDev_SIA2_Activities
-# System Integration and Architecture
+# Recipe Sharing Form
+**AppDev_SIA2_Activities - System Integration and Architecture**
 
-<p align="center">
-<a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Laravel project for recipe sharing form application.
+
+## Features
+- Laravel framework
+- Recipe management system
+- User authentication
+- Responsive design
+
+## Setup
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
